@@ -362,6 +362,58 @@
     
 }
 
+/* About Section */
+
+.AS__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    padding: 0 50px;
+}
+
+
+
+.AS__content p{
+    font-size: 2rem;
+    padding-bottom: 10%;
+    background-color: azure;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 400;
+    padding-left: 50px;
+
+}
+
+/* Mobile Responise */
+
+@media screen and (max-width: 760px){
+    .AS__container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+    .AS__content{
+        text-align: center;
+    }
+
+    .main__content p {
+        font-size: 1.5rem;
+        margin-top: 1rem'
+    }
+
+}
 /* Projects Section*/
 
 .projects{
@@ -389,6 +441,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 1600vh;
 }
 
 .projects__card{
@@ -452,29 +505,56 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1050px){
+
+    .projects__container{
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 1600vh;
+    }
     .projects{
         height: 1600px;
+        align-items: center;
+        justify-items: center;
     }
 
     .projects h1{
         font-size: 2rem;
         margin-top: 5rem;
         margin-bottom: 2rem;
+        align-items: center;
+        justify-items: center;
     }
 }
 
 @media screen and (max-width: 480px){
+
+    .projects__container{
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 1600vh;
+    }
     .projects{
         height: 1400px;
+        align-items: center;
+        justify-items: center;
     }
 
     .projects h1{
         font-size: 1.2rem;
+        align-items: center;
+        justify-items: center;
     }
 
     .projects__card{
         width: 300px;
+        scale: auto;
+        align-items: center;
+        justify-items: center;
     }
 }
 
