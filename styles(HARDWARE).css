@@ -209,6 +209,7 @@
 
 .main__container{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
@@ -218,10 +219,12 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    padding-bottom: 500px;
 }
 
 .main__content h1{
-    font-size: 5rem;
+    font-size: 4rem;
+    padding-top: 10%;
     background-color: azure;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -229,12 +232,12 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-weight: 1000;
-    padding-bottom: 1cm;
     
 }
 
-.main__content p{
+.main__content li{
     font-size: 2rem;
+    padding-top: 5%;
     background-color: azure;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -244,6 +247,19 @@
     font-weight: 400;
     
 }
+
+
+.main__img-container{
+    text-align: center;
+    size-adjust: 50%;
+}
+
+#main__img{
+    height: 50%;
+    width: 50%;
+    padding-right: -10%;
+}
+
 
 @media screen and (max-width: 760px){
     .main__container{
