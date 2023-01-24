@@ -41,8 +41,8 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 3rem;
-    font-weight: 5000;
+    font-size: 2rem;
+
 }
 
 .fa-gem{
@@ -220,6 +220,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    padding-bottom: 500px;
 }
 
 .main__content h1{
@@ -577,6 +578,7 @@
         font-size: 1.2rem;
         align-items: center;
         justify-items: center;
+        padding-top: 300px;
     }
 
     .projects__card{
