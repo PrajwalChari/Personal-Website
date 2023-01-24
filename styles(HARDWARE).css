@@ -219,12 +219,13 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
-    padding-bottom: 500px;
+    padding-bottom: 300px;
 }
 
 .main__content h1{
     font-size: 4rem;
     padding-top: 10%;
+    padding-bottom: 2%;
     background-color: azure;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -235,8 +236,12 @@
     
 }
 
+.main__content ul{
+    padding: 0 50px;
+}
+
 .main__content li{
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding-top: 5%;
     background-color: azure;
     background-size: 100%;
@@ -245,20 +250,32 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-weight: 400;
-    
-}
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 
+}
 
 .main__img-container{
     text-align: center;
-    size-adjust: 50%;
+    size-adjust: 80%;
+    display: flexbox;
+    padding-top: 80px;
+
+
 }
 
 #main__img{
-    height: 50%;
-    width: 50%;
+    height: 65%;
+    width: 65%;
     padding-right: -10%;
+
+
+
+
 }
+
 
 
 @media screen and (max-width: 760px){
@@ -277,7 +294,7 @@
     }
 
     .main__content h1{
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 2rem'
     }
 
@@ -292,25 +309,82 @@
 
     }
     
+    .main__content ul{
+        padding: 0 50px;
+    }
+    
+    .main__content li{
+        font-size: 1.75rem;
+        padding-top: 5%;
+        text-align: left;
+        background-color: azure;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-weight: 400;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    
+    }
 
 }
 
 
 @media screen and (max-width: 480px) {
+    .main__container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+    .main__content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
     .main__content h1{
         font-size: 2rem;
         margin-top: 2rem'
     }
 
     .main__content p {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         margin-top: 2rem'
     }
 
-    .main__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
+    #main__img{
+        height: 80%;
+        width: 80%;
+
+    }
+    
+    .main__content ul{
+        padding: 0 50px;
+    }
+    
+    .main__content li{
+        font-size: 1.75rem;
+        padding-top: 5%;
+        text-align: left;
+        background-color: azure;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-weight: 400;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    
     }
 
-    
 }
