@@ -364,17 +364,23 @@
 
 /* About Section */
 
+.AS{
+    background-color: #141414;
+}
+
+
 .AS__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
+    height: 20vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
+    max-width: 1300px;
     padding: 0 50px;
-    height: 30vh;
 }
 
 
@@ -389,12 +395,11 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-weight: 400;
-    padding-left: 50px;
 
 }
 
 /* Mobile Responise */
-
+/*
 @media screen and (max-width: 480px){
     .AS__container{
         display: grid;
@@ -415,7 +420,7 @@
     }
 
 }
-
+*/
 @media screen and (max-width: 760px){
     .AS__container{
         display: grid;
@@ -424,7 +429,7 @@
         justify-items: left;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        height: 30vh;
     }
     .AS__content{
         text-align: center;
