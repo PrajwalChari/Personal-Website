@@ -41,7 +41,8 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 5000;
 }
 
 .fa-gem{
@@ -171,13 +172,14 @@
     .navbar__btn{
         padding-top: 2rem;
         padding-bottom: 2rem;
+        
     }
 
     .button{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 20%;
+        width: 30%;
         height: 50px;
         margin: 0;
     }
