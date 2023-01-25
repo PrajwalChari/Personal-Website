@@ -448,7 +448,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .projects h1 {
@@ -468,7 +468,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 1600vh;
+    height: 20vh;
 }
 
 .projects__card{
@@ -661,3 +661,56 @@
     }
 
 }
+
+.CV{
+    background-color: #141414;
+}
+
+.CV__container{
+
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 70vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    padding-bottom: 300px;
+}
+
+.CV__content h1{
+    font-size: 3rem;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    background-color: azure;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 1000;
+    
+}
+
+.CV__content ul{
+    padding: 0 50px;
+}
+
+.CV__content li{
+    font-size: 1.75rem;
+    padding-top: 5%;
+    background-color: azure;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 400;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
