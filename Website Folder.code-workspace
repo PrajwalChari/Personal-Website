@@ -8,5 +8,7 @@
 			"path": "../../OneDrive/Documents/PlatformIO/Projects/TEST"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Personal-Website"
+	}
 }

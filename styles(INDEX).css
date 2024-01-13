@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +30,7 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 5%; 
 }
 
 #navbar__logo{
@@ -377,8 +382,8 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
-    height: 20vh;
+    margin: auto auto;
+    height: 30vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
